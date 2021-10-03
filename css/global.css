@@ -4,6 +4,17 @@
     font-style: normal; 
     font-weight: bold;
 }
+@media(max-width: 576px) {
+header form{
+display: none;
+}
+
+}
+@media (max-width: 576px) {
+    .name p img{
+        display: none;
+    }
+}
 
 * { 
     font-family: 'My Lucida', Console;
