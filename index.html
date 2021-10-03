@@ -10,8 +10,14 @@
 		rel="stylesheet"
 		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-		crossorigin="anonymous"
-	  />
+		crossorigin="anonymous" />
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
 	</head>
 	<body>
 		<header>
@@ -29,9 +35,12 @@
 				</div>
 			</div>
 		</header>
-		<div class="container">
 		<aside>
-			<h3>Browse</h3>
+		<!-- <div class="container">    <-->
+			<div class="container-fluid">
+				<div class="col">
+					<div class="row-md-12">
+						<h3>Browse</h3>
 			<nav class="browse">
 				<ul class="main">
 					<li><a class="heavy" href="#">Heavy Rotation</a></li>
@@ -40,16 +49,28 @@
 					<li><a class="new" href="#">New Releases</a></li>
 				</ul>
 			</nav>
-			<h3>Your music</h3>
-			<nav class="music">
-				<ul class="main">
-					<li><a class="collection" href="#">Collection</a></li>
-					<li><a class="history" href="#">History</a></li>
-				</ul>
-			</nav>
+					</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="col">
+						<div class="row-md-8">
+							<h3>Your music</h3>
+							<nav class="music">
+								<ul class="main">
+									<li><a class="collection" href="#">Collection</a></li>
+									<li><a class="history" href="#">History</a></li>
+								</ul>
+							</nav>
+
+						</div>
+				</div>
+			</div>
 		</aside>
 
+
 		<main>
+			<div class="conatiner-fluid">
 			<header>
 				<div class="name-photo">
 					<aside>
@@ -161,7 +182,7 @@
 					<div class="count">13 songs</div>
 				</article>
 			</section>
-		</main>
 		</div>
+		</main>
 	</body>
 </html>

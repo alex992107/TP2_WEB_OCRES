@@ -215,6 +215,9 @@ nav.browse a, nav.music a {
     margin-right: auto;
     margin-left: auto;
   }
+  .container-fluid {
+    max-width: 100%;
+  }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
