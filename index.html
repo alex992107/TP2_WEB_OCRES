@@ -6,9 +6,7 @@
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 		<!--ajout de bootstrap-->
-		<link
-		rel="stylesheet"
-		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 		crossorigin="anonymous" />
 
@@ -20,23 +18,31 @@
 
 	</head>
 	<body>
+		<div class="container-fluid">
 		<header>
 			<div class="wrapper">
+				<div class="row">
+					<div class="col-auto">
 				<div class="logo-search">
 					<img class="pull-left" src="img/logo.png" />
 				</div>
-
+				<div class="col">
 				<form method="POST" action="index.html">
 					<input type="search" required class="search">
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
+				<div class="col-auto">
 				<div class="user">
 				    <a href="#">Luke Chesser</a>
 				</div>
 			</div>
+				</div>
+					</div>
+				</div>
+			</div>
+			
 		</header>
 		<aside>
-		<!-- <div class="container">    <-->
 			<div class="container-fluid">
 				<div class="col">
 					<div class="row-md-12">
@@ -69,7 +75,7 @@
 		</aside>
 
 
-		<main>
+		<main class="col-xl-7 col-md-7 col-sm-5 col-3">
 			<div class="conatiner-fluid">
 			<header>
 				<div class="name-photo">
@@ -96,6 +102,8 @@
 					</div>
 				</div>
 			</header>
+			<div class="row">
+				<div class="col-auto">
 			<h2>Top Album</h2>
 			<div>
 				<a class="station" href="#">Start Station</a>
@@ -184,5 +192,7 @@
 			</section>
 		</div>
 		</main>
+	</div>
+	</div>
 	</body>
 </html>
